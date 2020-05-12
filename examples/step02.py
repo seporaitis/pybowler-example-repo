@@ -19,4 +19,4 @@ def remove_statement(node, capture, filename):
 
 
 def main():
-    (Query("tests/").select(PATTERN).modify(remove_statement).idiff())
+    (Query().select(PATTERN).modify(remove_statement).idiff())
