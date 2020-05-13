@@ -14,7 +14,6 @@ assert_stmt< "assert"
 
 
 def remove_statement(node, capture, filename):
-    node = capture.get("node")
     node.remove()
 
 
