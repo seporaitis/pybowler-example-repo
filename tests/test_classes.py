@@ -15,4 +15,6 @@ def test_run(caplog):
 
     assert foo.run() == 2
 
-    assert caplog.record_tuples == [("src.classes", 20, "FooClass.run<value=1>")]
+    assert caplog.record_tuples == [
+        ("src.classes", logging.INFO, "FooClass.run<value=1>")
+    ]
