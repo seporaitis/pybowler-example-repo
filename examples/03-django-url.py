@@ -1,5 +1,4 @@
 from bowler import Query
-from fissix.fixer_util import Name
 
 
 def main():
